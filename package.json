@@ -1,0 +1,13 @@
+{
+  "name": "email-verification",
+  "version": "1.0.0",
+  "main": "api/sendVerificationCode.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "mailgun.js": "^2.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
